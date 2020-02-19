@@ -45,11 +45,11 @@ return [
 
         'mysql' => [
             'driver' => 'mysql',
-            'host' => env('DB_HOST', 'localhost'), #変更
+            'host' => env('DB_HOST', 'localhost'),
             'port' => env('DB_PORT', '3306'),
-            'database' => env('DB_DATABASE', 'tutorial'), #変更
-            'username' => env('DB_USERNAME', 'root'), #変更
-            'password' => env('DB_PASSWORD', ''), #変更
+            'database' => env('DB_DATABASE', 'kiita'), 
+            'username' => env('DB_USERNAME', 'root'), 
+            'password' => env('DB_PASSWORD', ''), 
             'unix_socket' => env('DB_SOCKET', ''),
             'charset' => 'utf8mb4',
             'collation' => 'utf8mb4_unicode_ci',
